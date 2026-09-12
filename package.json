@@ -1,0 +1,25 @@
+{
+  "name": "omniroute-claude-integration",
+  "version": "1.0.0",
+  "description": "OmniRoute + Claude AI Integration for Enhanced Performance",
+  "main": "omniroute_claude_integration.js",
+  "scripts": {
+    "start": "node omniroute_claude_integration.js",
+    "dev": "nodemon omniroute_claude_integration.js"
+  },
+  "keywords": [
+    "omniroute",
+    "claude",
+    "ai",
+    "integration"
+  ],
+  "author": "ahmedzaki1234",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
